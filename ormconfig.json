@@ -1,0 +1,11 @@
+
+{
+"type": "postgres",
+"database": "redditclone",
+"synchronize": true,
+"logging": true,
+"username": "mohammedtalhaarif",
+"password": "republic",
+"entities": ["dist/entity/*.*"],
+"migrations": ["dist/migrations/*.js"]
+}
